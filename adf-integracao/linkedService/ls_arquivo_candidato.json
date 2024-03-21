@@ -1,0 +1,18 @@
+{
+	"name": "ls_arquivo_candidato",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "aaa",
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\cursoADF",
+			"userId": "gaocubo\\Gildo Gomes",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNmI4ZTM3ZS02ODI3LTRmMzktOWI5Mi0xZjZjNTNmMGFjNDUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ir-selfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
