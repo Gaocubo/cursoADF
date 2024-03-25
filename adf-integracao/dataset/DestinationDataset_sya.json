@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_sya",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_service_onpremise",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "consulta_cand_2022_AC_ADF"
+		}
+	}
+}
